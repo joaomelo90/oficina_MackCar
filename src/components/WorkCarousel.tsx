@@ -7,52 +7,53 @@ import { ChevronLeft, ChevronRight, Camera, CheckCircle, X } from "lucide-react"
 import workshop1 from "@/assets/workshop-1.jpg";
 import workshop2 from "@/assets/workshop-2.jpg";
 import workshop3 from "@/assets/workshop-3.jpg";
+import Novidade from "@/assets/novidades.gif"
 
 const workProjects = [
   {
     id: 1,
-    title: "Revisão Completa - BMW X5",
-    description: "Manutenção preventiva completa com troca de filtros, óleo e diagnóstico eletrônico",
-    image: workshop1,
+    title: "Em breve novidades",
+    description: "Estamos preparando novidades para você. Fique ligado!",
+    image: Novidade,
     category: "Manutenção Preventiva",
-    duration: "2 dias",
-    status: "Concluído"
+    duration: "",
+    status: "Novidades"
   },
   {
     id: 2,
-    title: "Reparo Motor - Audi A4",
-    description: "Retífica completa do motor com substituição de componentes e testes de performance",
-    image: workshop2,
+    title: "Em breve novidades",
+    description: "Estamos preparando novidades para você. Fique ligado!",
+    image: Novidade,
     category: "Mecânica Geral",
-    duration: "5 dias",
-    status: "Concluído"
+    duration: " ",
+    status: "Novidades"
   },
   {
     id: 3,
-    title: "Diagnóstico Eletrônico - Mercedes C180",
-    description: "Análise completa do sistema eletrônico com equipamentos de última geração",
-    image: workshop3,
+    title: "Em breve novidades",
+    description: "Estamos preparando novidades para você. Fique ligado!",
+    image: Novidade,
     category: "Diagnóstico",
-    duration: "1 dia",
-    status: "Concluído"
+    duration: " ",
+    status: "Novidades"
   },
   {
     id: 4,
-    title: "Restauração Completa - Civic Type R",
-    description: "Projeto de restauração total incluindo motor, suspensão e pintura",
-    image: workshop1,
+    title: "Em breve novidades",
+    description: "Estamos preparando novidades para você. Fique ligado!",
+    image: Novidade,
     category: "Restauração",
-    duration: "15 dias",
-    status: "Concluído"
+    duration: " ",
+    status: "Novidades"
   },
   {
     id: 5,
-    title: "Sistema Elétrico - Hilux SW4",
-    description: "Reparo completo do sistema elétrico e instalação de acessórios",
-    image: workshop2,
+    title: "Em breve novidades",
+    description: "Estamos preparando novidades para você. Fique ligado!",
+    image: Novidade,
     category: "Elétrica",
-    duration: "3 dias",
-    status: "Concluído"
+    duration: " ",
+    status: "Novidades"
   }
 ];
 
